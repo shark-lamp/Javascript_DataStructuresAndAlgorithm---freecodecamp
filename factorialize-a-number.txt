@@ -1,0 +1,15 @@
+function factorialize(num) {
+  let factorial = 1;
+  if(num == 0 || num == 1){
+    return 1;
+  }else{
+    for(let i = num; i > 0; i--){
+      factorial = factorial*num;
+      num--;
+    }
+    return factorial;
+  }
+  
+}
+
+factorialize(5);

@@ -1,0 +1,12 @@
+function reverseString(str) {
+  
+  let arr = str.split("");
+  //console.log(arr);
+  arr.reverse();
+  //console.log(arr);
+  let nstr = arr.join("");
+  //console.log(nstr);
+  return nstr;
+}
+
+reverseString("hello");
