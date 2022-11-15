@@ -1,0 +1,53 @@
+function confirmEnding(str, target) {
+  /*const sarr = str.split("");
+  let ll = sarr.length;
+  if(target in str){
+    return true;
+  }else{
+    return false;
+  }
+  */
+
+  //let text = "Mr. Blue has a blue house";
+  //let position = text.search("blue");
+
+/*
+  let no = str.length ;
+  let lt = target.length;
+  let result = no - lt;
+  
+
+  let num = str.search(target);
+  if(num == result
+  ){
+    return true;
+  }else{
+    return false;
+  }
+  */
+
+  const rstr = str.split("");
+  const rtarget = target.split("");
+
+  rstr.reverse();
+  rtarget.reverse();
+
+  str = rstr.join("");
+  target = rtarget.join("");
+
+  let num = str.search(target);
+  if(num == -1){
+    return false;
+  }else if(num == 0){
+    return true;
+  }else{
+    return false;
+  }
+
+
+
+
+  
+}
+
+confirmEnding("Bastian", "n");
