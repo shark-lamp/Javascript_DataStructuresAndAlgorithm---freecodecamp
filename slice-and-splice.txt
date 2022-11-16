@@ -1,0 +1,15 @@
+function frankenSplice(arr1, arr2, n) {
+  let array = []
+  let fpart = arr2.slice(0,n);
+  let mpart = arr1;
+  let npart = arr2.slice(n);
+  let arr3 = fpart.concat(arr1);
+  array = arr3.concat(npart);
+  
+
+
+  console.log(array);
+  return array;
+}
+
+frankenSplice([1, 2, 3], [4, 5, 6], 1);
