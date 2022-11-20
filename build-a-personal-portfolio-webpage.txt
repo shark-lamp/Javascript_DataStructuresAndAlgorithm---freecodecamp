@@ -1,0 +1,103 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <a href="#welcome-section">Introduction</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+  <main>
+    <section id="welcome-section">
+      <h1>Hi! I'm Sahej, I'm a Computer Science student in India.</h1>
+    </section>
+    <section id = "img">
+      <img src = "https://lh3.googleusercontent.com/W5nRphTs--LD4RGB5z7CvReY6z8wgipVKZ1nLTvdsV9iRQS_OX82kjX9cyLVvonCkvpF5vQMS8MUiz7FPJx0x9uXMYRy3Vq21rVfC9aA5Q6fzyxpGQcsGRP0o_pmVJpjuJIHZoUVH7r_YHWWXYG4YjmaDD2jI8xb2SFQgYCAlxG0XBJnaD6yX-5j0VZbYCYkvQu0ZfW95S4QB3bekPMVTVDtyq91Kwxe3Wvjz5shVJ1elpEEgupWvCxKDcXm02GQYdkrVoZyrKjAQDZ6cIGEHVH0CuVAA1eRV0JEeKj8l0WUxRLHyo1uvNzrZMZVthgE5iVAW1ABtaGtGLBDfZC-TBitfOVFb19_OzBnF59Trg2UuF-2owTbJRkMrtMPgAGHVFdRYLisY85jkOnnDGlgEru1x2IBJolV7hbjsV2x-YHfdmIA4PDEOdXQPF-vBObSqUGfIYFhX8wq_SeMwvWPJgz19UNhmRkM9iQ0nD3EBsMbfw1pULKUKZRDnCErAf-nAGH3lxx4qGobRFUMuZqq2QewJHFB-7UF8JI06g891CyQxsDN9j84HjtcMKyLndeOvMi6GO-uwVxCBF_6n_QzL1_EUfVVykS5T0bZxGlQSub64pzj16DlrAXGLjVvg97gjBOlZXleFD6DX7xJgBayQRZMoNLCh5Kb0miKmzSb9Rb45ct0DS2x2YGFV-X0X_8fIj8W7muL-pW8arhFbzXvlyWORHMDiBXV2yhrMkYWloD0Vh_wAKAMRovjmJpkJY5sWWwxt6sx8Enw_iwAZ2pypK_Tq-n1TntNL7D2FV-gyreKrKJ9Pb76EYy5oG3YrK87Xp6xDhpoZvaDeYA5ejcoL7gmxA1wMZ6iFrTHzb3-jLgKLW0HEyBvFIp1rQSzKMCmzDycXx0QEqGPCca1lcM0LwrPG7zwicusUhyBd4ta1ouZlUn_=w484-h860-no?authuser=0"/>
+    </section>
+    <section id="portfolio">
+      <h2 id="portfolio">I am a skilled at html and css, and Python. Further more, I know C, C++, Java. 
+       Link to my<a href="https://github.com/shark-lamp" id="profile-link" target="_blank"> github</a> account and <a href = "https://www.linkedin.com/in/sahej-hira-47834021b/" id="profile-link" target="_blank">LinkedIn </a> account.
+      </h2>
+    </section>
+    <section id="projects">
+      <p >Some of the projects that I've worked on are:-
+       <ul >
+         <li class="project-tile"><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form">Survey form</a></li>
+         <li class="project-tile">Tribute page</li>
+         <li class="project-tile"><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page">Technical documentation page</a></li>
+         <li class="project-tile"><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page">Product landing page</a></li>
+         <li class="project-tile"><a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/build-a-personal-portfolio-webpage">Portfolio Webpage</a></li>
+        </ul>
+      </p>
+    <section>
+  </main>
+  <footer>
+    <p>Connect with me on<a href="https://github.com/shark-lamp"> github</a>.</p>
+  </footer>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+  
+#welcome-section{
+  font-style:Snell Roundhand, cursive;
+}
+
+body{
+  height:500px;
+  width:600px;
+  min-width:500px;
+  max-width:800px;
+  background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-simple-and-elegant-pale-powder-banner-background-pinkstraight-linewhitesimple-image_80912.jpg);
+
+}
+
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ccbbcc;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  
+}
+
+
+#welcome-section{
+  border:45em;
+  padding:3em;
+
+}
+
+#img{
+  position:center;
+  height:auto;
+  width:auto;
+}
+
+
+@media only screen and (min-width){
+  #portfolio{
+    display:absolute;
+    font-style:sans-serif;
+
+  }
+}
+
+** end of undefined **
+
