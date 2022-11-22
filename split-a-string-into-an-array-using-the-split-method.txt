@@ -1,0 +1,32 @@
+function splitify(str) {
+
+  // Only change code below this line
+
+//  let punctuation = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~';
+
+/*
+ return str
+    .split(' ')
+    .filter(function(letter) {
+      console.log(str);
+      return punctuation.indexOf(letter) === -1;
+      
+    });
+
+
+     str.replace(punctuation, ' ');
+  console.log(str);
+  str.split(' ');
+*/
+
+let l = str.split(/\W/);
+return l;
+ 
+
+
+
+
+  // Only change code above this line
+}
+
+splitify("Hello World,I-am code");
