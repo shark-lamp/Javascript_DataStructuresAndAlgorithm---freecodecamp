@@ -1,0 +1,39 @@
+// Only change code below this line
+function urlSlug(title) {
+
+/*
+  let titlee = title.trim();
+  let titleee = titlee.toLowerCase();
+
+  let r = titleee.match('  ')
+  let r = titleee.split(' ');
+  // const r =
+  //    titleee.includes("  ")? titleee.split(" -"):titleee.split(" ");
+  
+  //console.log(r);
+  let p = r.join('-');
+  let s =
+      p.includes('--')? p.join("-");
+  console.log(s);
+  return s;
+*/
+
+return title
+      .toLowerCase()
+      .trim()
+      .split(/\s+/)
+      .join('-')
+      
+
+
+
+
+
+
+
+
+
+}
+// Only change code above this line
+//urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
+//urlSlug(" Winter Is  Coming")
