@@ -1,0 +1,14 @@
+function destroyer(arr,...other) {
+  let farr = arr;
+  let narr = other;
+  let newarr= [];
+  
+  for(let i = 0; i < farr.length; i++){
+    if(narr.includes(farr[i]) === false){
+      newarr.push(farr[i]);
+    }
+  }
+  return newarr;
+}
+
+destroyer([1, 2, 3, 1, 2, 3], 2, 3);
