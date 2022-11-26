@@ -1,7 +1,7 @@
 function destroyer(arr,...other) {
-  let farr = arr;
-  let narr = other;
-  let newarr= [];
+  let farr = arr;//first array
+  let narr = other;//rest of the elements = '[...other]' - using the rest parameter; 
+  let newarr= [];// array with arguments ocuurance === 1;
   
   for(let i = 0; i < farr.length; i++){
     if(narr.includes(farr[i]) === false){
