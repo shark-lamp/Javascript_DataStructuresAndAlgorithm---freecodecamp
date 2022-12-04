@@ -1,0 +1,37 @@
+function rot13(str) {
+
+  let right_letter = "";
+  
+  var regex = /^[a-zA-Z]+$/;
+  const arr = str.split('');
+  //console.log(arr);
+  for(let i = 0; i < str.length; i++){
+    let ascii_no = 0;
+    let correct_no = 0;
+    //console.log(arr[i])
+    if(arr[i].match(regex)){
+      //console.log(arr[i]);
+      ascii_no = arr[i].charCodeAt(0);
+      //console.log(ascii_no);
+      correct_no = ascii_no - 13;
+      if(correct_no < 65){
+        let counted = ascii_no - 65;
+        correct_no = 90 + counted - 12;
+      }
+      //console.log(correct_no);
+      right_letter = String.fromCharCode(correct_no);
+      //console.log(right_letter);
+      arr[i] = right_letter;
+   }
+
+    //console.log(arr[i])
+  }
+  let txt = arr.join('');
+  console.log(txt);
+  return txt;
+}
+
+//const result = string.charCodeAt(0);
+
+
+rot13("SERR PBQR PNZC");
